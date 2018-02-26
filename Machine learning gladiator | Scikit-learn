@@ -38,3 +38,18 @@ array([[  0.,   0.,   0.,  12.,  13.,   5.,   0.,   0.],
        [  0.,   0.,   1.,  16.,  16.,   6.,   0.,   0.],
        [  0.,   0.,   1.,  16.,  16.,   6.,   0.,   0.],
        [  0.,   0.,   0.,  11.,  16.,  10.,   0.,   0.]])
+In [9]: from sklearn import svm
+
+In [10]: clf= svm.SVC(gamma=0.001,C=100.)
+
+In [11]: clf.fit(digits.data[:-1],digits.target[:-1])
+Out[11]:
+SVC(C=100.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+  
+In [12]: clf.predict(digits.data[-1:])
+Out[12]: array([8])
+
+
