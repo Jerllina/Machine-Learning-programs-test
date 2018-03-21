@@ -4,4 +4,4 @@ https://elitedatascience.com/machine-learning-projects-for-beginners?spm=5176.10
 2.Machine Learning for Diabetes 
 https://towardsdatascience.com/machine-learning-for-diabetes-562dd7df4d42
 
-3.Book 《Machine Learning in Action》 Peter Harrington
+3.
